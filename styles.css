@@ -1,0 +1,73 @@
+.navbar {
+    background-color: orange
+}
+body {
+    font-size: 20px;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color:blue;
+    font-family: Arial;
+}
+h2 {
+    font-family: Arial;
+    color: blue;
+}
+
+.Pets {
+    text-align: center;
+    background-color: tan;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.column { 
+    flex: 1 1 300px;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.column img {
+    width: 100%;
+    height: auto;
+}
+.gray-cat {
+    flex: 2 1 600px;
+    max-width: 600px;
+}
+.caption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.project {
+    align-items: center;
+    gap: 20px; 
+}
+
+.project-info {
+    flex: 1;
+}
+.project-info h2, .project-info p {
+    margin: 0;
+}
+
+<!-- Could not get this to format correctly -->
+
+.Timeline-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Timeline-column {
+    width: 33.33%;
+    padding: 5px;
+}
+
